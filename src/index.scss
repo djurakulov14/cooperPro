@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&display=swap');
+
+* {
+    font-family: 'Playfair Display';
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+.mainImg {
+    background-image: url(/images/BG.png);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    margin-top: 45px;
+    background-color: transparent;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.swiperrr {
+    align-items: flex-start;
+}
+
+.first {
+  background-image: url('/images/first.png');
+  background-position: center;
+  background-size: cover;
+  width: 32%;
+  height: 450px;
+}
+
+.second {
+  background-image: url('/images/second.png');
+  background-position: center;
+  background-size: cover;
+  width: 32%;
+  height: 450px;
+}
+
+
+.firstProd {
+  background-image: url('/images/first.png');
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.secondProd {
+  background-image: url('/images/second.png');
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+}
